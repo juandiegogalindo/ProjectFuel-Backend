@@ -1,0 +1,26 @@
+BACKEND PROJECT FUEL
+
+Evidenciar Usuarios: http://localhost:8080/usuarios
+Generar Usuario:
+{
+  "nombre": "Juan",
+  "usuario": "juand",
+  "correo": "juan@test.com",
+  "direccion": "Bogota",
+  "password": "123",
+  "rol": "ADMIN",
+  "idUbicacion": 1,
+  "fechaNacimiento": "2000-01-01",
+  "genero": "M",
+  "latitud": 4.6,
+  "longitud": -74.1,
+  "verificado": 1,
+  "codigoVerificacion": "ABC123"
+}
+
+Login: http://localhost:8080/usuarios/login
+
+{
+  "correo": "juan@test.com",
+  "password": "123"
+}
